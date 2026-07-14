@@ -6,26 +6,26 @@ const services = [
     title: 'Custom Software Delivery',
     description:
       'Product-minded engineers, UX strategists, and technical architects that move from discovery to launch without dropping the ball.',
-    icon: '\u2728'
+    icon: '✨'
   },
   {
     title: 'Cloud & DevOps',
     description:
       'Secure public-cloud architecture, governance, and on-call practices that ensure you are resilient even as traffic surges.',
-    icon: '\u2601\ufe0f'
+    icon: '☁️'
   },
   {
     title: 'Managed Teams',
     description:
       'Dedicated pods that scale up and down, sit on the same platform, and collaborate with your internal product teams.',
-    icon: '\ud83e\udd1d'
+    icon: '🤝'
   }
 ];
 
 const processSteps = [
   {
     title: 'Strategic discovery',
-    detail: 'Align goals, surface risks, and validate the roadmap with prototypes and research artifacts.'
+    detail: 'Align goals, surface resks, and validate the roadmap with prototypes and research artifacts.'
   },
   {
     title: 'Focused delivery',
@@ -40,7 +40,7 @@ const processSteps = [
 const testimonials = [
   {
     quote:
-      'Our platform launch was a success-This team drove every sprint with discipline and deep technical insight.',
+      'Our platform launch was a success—this team drove every sprint with discipline and deep technical insight.',
     author: 'COO, Fintech Scale-up'
   },
   {
@@ -89,12 +89,12 @@ function HomePage() {
 
       <section id="services" className="section services">
         <div className="section-header">
-          <p className="eyebrow">What Wecmantras builds</p>
-          <h2>Integrated engineering and consulting</h2>
+          <p className="eyebrow">Client impact</p>
+          <h2>Trusted by growing IT leaders</h2>
         </div>
         <div className="services-grid">
           {services.map((service) => (
-            <ServiceCard key={service.title} {...service} />
+              <ServiceCard key={service.title} {...service} />
            ))}
         </div>
       </section>
