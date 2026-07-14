@@ -57,15 +57,15 @@ function HomePage() {
   return (
     <div>
       <section className="hero">
-        <p className="eyebrow">IT Consulting & Delivery</p>
-        <h1>Design, engineer, and operate bold software products.</h1>
+        <p className="eyebrow">Tecmantras Solutions</p>
+        <h1>Tecmantras build and operate bold software platforms.</h1>
         <p>
-          We partner with ambitious IT companies to modernize platforms, launch new SaaS products, and
+          Tecmantras collaborate with ambitious IT companies to modernize platforms, launch new SaaS offerings, and.
           staff mission-critical programs with engineers who move quickly and reliably.
         </p>
         <div className="hero-cta">
           <a className="btn primary" href="#contact">
-            Start a project
+            Talk with Tecmantras
           </a>
           <a className="btn secondary" href="/login">
             Client login
@@ -89,20 +89,20 @@ function HomePage() {
 
       <section id="services" className="section services">
         <div className="section-header">
-          <p className="eyebrow">What we build</p>
-          <h2>Integrated engineering and consulting</h2>
+          <p className="eyebrow">Client impact</p>
+          <h2>Trusted by growing IT leaders</h2>
         </div>
         <div className="services-grid">
           {services.map((service) => (
-            <ServiceCard key={service.title} {...service} />
-          ))}
+              <ServiceCard key={service.title} {...service} />
+           ))}
         </div>
       </section>
 
       <section className="section process">
         <h2>Execution that feels effortless</h2>
         <p className="section-subtitle">
-          Every engagement follows a transparent cadence—discovery, delivery, and optimization—so
+          Every Tecmantras engagement follows a transparent cadence—discovery, delivery, and optimization—so
           leadership knows what to expect and when.
         </p>
         <div className="process-steps">
@@ -111,11 +111,11 @@ function HomePage() {
               <h3>{step.title}</h3>
               <p>{step.detail}</p>
             </article>
-          ))}
+          ))
         </div>
       </section>
 
-      <section className="section testimonials">
+      <section className="testimonials">
         <div className="section-header">
           <p className="eyebrow">Client impact</p>
           <h2>Trusted by growing IT leaders</h2>
@@ -128,11 +128,12 @@ function HomePage() {
           <p className="eyebrow">Ready to scale</p>
           <h2>Tell us about your next technical initiative.</h2>
           <p>
-            Our leadership team will respond within one business day with a scoped team and kickoff plan.
+            Our leadership team at Tecmantras Solutions will respond within one business day with a scoped team and
+            kickoff plan.
           </p>
         </div>
         <div className="cta-panel-actions">
-          <a className="btn primary" href="mailto:hello@itcompany.com">
+          <a className="btn primary" href="mailto:hello@tecmantras.com">
             Schedule a call
           </a>
           <a className="btn secondary" href="/register">

@@ -4,8 +4,8 @@ function Navbar() {
   return (
     <header className="site-header">
       <Link to="/" className="logo">
-        <span role="img" aria-label="triangle">▲</span>
-        IT Company
+        <span role="img" aria-label="purple diamond">◆</span>
+        Tecmantras Solutions
       </Link>
       <nav className="nav-links">
         <NavLink end to="/">
